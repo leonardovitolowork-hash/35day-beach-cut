@@ -1,1 +1,29 @@
-SEE_BELOW
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>35-Day Beach Cut</title>
+<meta name="theme-color" content="#0d0d0d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="35-Day Cut">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" id="manifest-placeholder">
+<style>body{font-family:system-ui,sans-serif;background:#0d0d0d;color:#f0ece4;display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;padding:20px;text-align:center}.card{background:#1e1e1e;border:1px solid #2a2a2a;border-radius:20px;padding:40px 30px;max-width:420px}.title{font-size:28px;font-weight:900;background:linear-gradient(135deg,#c9a84c,#e8c96a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:12px}.sub{color:#888;font-size:15px;line-height:1.6;margin-bottom:24px}.btn{display:inline-block;padding:14px 28px;background:linear-gradient(135deg,#c9a84c,#e8c96a);color:#000;font-weight:900;border-radius:14px;text-decoration:none;font-size:15px}</style>
+</head>
+<body>
+<div class="card">
+  <div class="title">35-Day Beach Cut</div>
+  <div class="sub">The full PWA app is delivered as a downloadable file.<br>Download it and open in Safari/Chrome to install.</div>
+  <a class="btn" href="https://github.com/leonardovitolowork-hash/35day-beach-cut" target="_blank">View on GitHub</a>
+</div>
+<script>
+(function(){
+  const manifest={name:'35-Day Beach Cut',short_name:'35-Day Cut',display:'standalone',background_color:'#0d0d0d',theme_color:'#0d0d0d',start_url:'./',icons:[{src:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%230d0d0d'/%3E%3Ctext x='50%25' y='58%25' dominant-baseline='middle' text-anchor='middle' font-size='260' font-family='Arial' font-weight='900' fill='%23c9a84c'%3E35%3C/text%3E%3C/svg%3E",sizes:'512x512',type:'image/svg+xml',purpose:'any maskable'}]};
+  const blob=new Blob([JSON.stringify(manifest)],{type:'application/json'});
+  document.getElementById('manifest-placeholder').href=URL.createObjectURL(blob);
+})();
+</script>
+</body>
+</html>
